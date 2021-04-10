@@ -1,13 +1,10 @@
 <?php
-    // $hostname = "localhost";
-    // $username = "root";
-    // $password = "";
-    // $dbName = "autojudge"; 
-    // SDvkyxCvcikSVhSr
     $hostname = "localhost";
-    $username = "kornkung";
-    $password = "Korn8162079";
-    $dbName = "autojudge";
+    $username = "root";
+    $password = "";
+    $dbName = "autojudge"; 
+    // SDvkyxCvcikSVhSr
+
     $conn = new mysqli($hostname, $username, $password, $dbName);
     mysqli_query($conn, "SET character_set_results=utf8");
     mysqli_set_charset($conn, "utf8");
